@@ -98,8 +98,9 @@ public:
 	{
 		for (int i=0;i<8;i++){
 			if (m_book[i] != NULL){
-			cout << m_book[i] -> getTitle() << endl;
-		}
+			cout << "Buch[" << i << "] Titel: " << m_book[i] -> getTitle() << endl;
+			cout << "Author: " << m_book[i] -> getAuthor() << ", ISBN: " << m_book[i] -> getISBN() << endl;			
+			}
 		}
 		// ...	
 	} 
